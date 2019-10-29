@@ -6,7 +6,7 @@ if [ $# -eq 0 ]
 then
     echo "[*] Installing localizations..."
 
-    cinnamon-json-makepot -i ./po/* > /dev/null
+    cinnamon-xlet-makepot -i . > /dev/null
 
     echo "[*] Installing applet files..."
 
